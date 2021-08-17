@@ -37,9 +37,7 @@ fetch("https://spreadsheets.google.com/feeds/list/1koXRNzhS0u_Cgf7mz-lhj5yEKkK8h
       mainContainer.appendChild(div);}
 
   })
-  .catch(function (err) {
-    console.log('error: ' + err);
-  });
+ 
 
 //function json(data) {
   //var mainContainer = document.getElementById("questions");
